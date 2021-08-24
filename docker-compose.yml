@@ -1,0 +1,5 @@
+services:
+  tomcat:
+    image: stuti/sample
+    volumes: logs:/usr/local/tomcat/logs
+    
