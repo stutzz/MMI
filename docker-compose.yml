@@ -1,5 +1,7 @@
+version: '3'
 services:
-  tomcat:
-    image: stuti/sample
-    volumes: logs:/usr/local/tomcat/logs
-    
+  sample:
+    build: .
+    ports:
+      - "8088:8080"
+          
